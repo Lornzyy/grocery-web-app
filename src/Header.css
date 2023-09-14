@@ -1,0 +1,46 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div--left {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1em;
+  margin: 1em;
+  align-items: center;
+}
+
+.header--img, .user--logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user--logo {
+    margin-top: -10px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  gap: 1em;
+  margin: 1em;
+}
+
+nav ul li {
+  font-size: 1em;
+  cursor: pointer;
+  color:brown;
+}
+
+nav ul li:hover {
+    color: black;
+}
+
+nav ul li:active {
+    color: rebeccapurple;
+}
+
