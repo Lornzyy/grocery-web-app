@@ -1,0 +1,20 @@
+.home--info {
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2.2em;
+}
+
+.image--scroller {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 20px;
+}
+
+.image--scroller img {
+    border-radius: 20px;
+    border: 1px solid red;
+    width: 30%;
+    height: 30%;
+}

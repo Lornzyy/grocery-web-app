@@ -11,7 +11,7 @@ function Header() {
       </div>
       <nav className="div--right">
         <ul>
-          <a href="https://google.com" target="_blank" rel="noreferrer">
+          <a href="../pages/Home" target="_blank" rel="noreferrer">
             <li>Home</li>
           </a>
           <a href="https://google.com" target="_blank" rel="noreferrer">

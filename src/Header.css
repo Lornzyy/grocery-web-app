@@ -6,7 +6,7 @@
 
 .div--left {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap;    
   gap: 1em;
   margin: 1em;
   align-items: center;
@@ -25,22 +25,20 @@
 nav ul {
   display: flex;
   flex-wrap: nowrap;
-  list-style-type: none;
+  list-style: none;
   gap: 1em;
   margin: 1em;
 }
 
 nav ul li {
+  color: rgba(130, 39, 39, 0.522);
   font-size: 1em;
   cursor: pointer;
-  color:brown;
 }
 
+nav ul li:visited {
+  color: green;
+}
 nav ul li:hover {
-    color: black;
+  color: black;
 }
-
-nav ul li:active {
-    color: rebeccapurple;
-}
-
